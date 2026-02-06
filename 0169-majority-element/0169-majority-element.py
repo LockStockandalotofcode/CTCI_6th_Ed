@@ -11,4 +11,4 @@ class Solution:
                 max_count = count
                 majority_element = num
 
-        return majority_element
+        return majority_element 
