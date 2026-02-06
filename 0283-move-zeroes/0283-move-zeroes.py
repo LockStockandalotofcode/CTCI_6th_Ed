@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        
         current_freq = 0 # current frequency of zeroes
         n = len(nums)
         for i in range(n):
