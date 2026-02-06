@@ -12,3 +12,5 @@ class Solution:
                 majority_element = num
 
         return majority_element 
+
+        
