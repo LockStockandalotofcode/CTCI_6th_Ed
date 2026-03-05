@@ -1,0 +1,9 @@
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        # method 2: dropping the least significant bit
+        dp = [0] * (n+1)
+
+        for i in range(1, n+1):
+            dp[i] = dp[i & (i - 1)] + 1
+        
+        return dp
